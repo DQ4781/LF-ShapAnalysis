@@ -51,7 +51,7 @@ Postprocessing the XGBoost model with SHAP allowed us to rank and further identi
 The x-axis is the mean absolute value of the SHAP values which indicate the average magnitude of the impact of that particular feature on the model's prediciton across all instanaces in the dataset. The y-axis represents the top ten features that had the largest impact on the model.
 
 The next visualization is a summary plot. This plot shows individual instances as points, distributed along the x-axis based on their feature values. The vertical position of each point corresponds to its SHAP value, and the color coding helps visualize the range of feature values.
-![Img 2](imgs/xgb/summaryPlot.png)
+![Img 2](imgs/xgb/5sumPlot.png)
 
 
 ## Discussion 🎙️
